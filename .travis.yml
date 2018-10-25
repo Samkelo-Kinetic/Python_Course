@@ -16,15 +16,15 @@ script:
   - python exercises/ex9.py
   - python exercises/ex10.py 
   - python exercises/ex11.py < answers/testing.txt
-  - python ex12.py < answers/testing.txt
-  - python ex13.py < answers/ex13_input.txt
-  - python ex14.py Sam < answers/ex14_answer.txt
-  - python ex15.py ex15_sample.txt < ex15_answer.txt
-  - python ex16.py test.txt < bash_files/ex16_answer.sh
-  - python ex17.py test.txt new_file.txt < bash_files ex17_answer.sh
+  - python answers/ex12.py < answers/testing.txt
+  - python answers/ex13.py < answers/ex13_input.txt
+  - python answers/ex14.py Sam < answers/ex14_answer.txt
+  - python answers/ex15.py ex15_sample.txt < ex15_answer.txt
+  - python bash_scripts/ex16.py test.txt < bash_files/ex16_answer.sh
+  - python bash_scripts/ex17.py test.txt new_file.txt < bash_files ex17_answer.sh
   - python exercise/ex18.py
   - python exercise/ex19.py
-  - python exercise/ex20.py test.txt
+  - python exercise/ex20.py/answers test.txt
   - python exercise/ex21.py
   - python exercise/ex24.py
   - python exercise/ex25.py
