@@ -24,7 +24,7 @@ script:
   - python exercises/ex17.py test.txt new_file.txt < bash_scripts/ex17_answer.sh
   - python exercises/ex18.py
   - python exercises/ex19.py
-  - python exercises/ex20.py <answers/test.txt
+  - python exercises/ex20.py < answers/test.txt
   - python exercises/ex21.py
   - python exercises/ex24.py
   - python exercises/ex25.py
