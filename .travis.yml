@@ -19,7 +19,7 @@ script:
   - python exercises/ex12.py < answers/testing.txt
   - python exercises/ex13.py < answers/ex13_input.txt
   - python exercises/ex14.py Sam < answers/ex14_answer.txt
-  - python exercises/ex15.py < answers/ex15_sample.txt
+  - python exercises/ex15.py ex15_sample.txt < answers/ex15_answer.txt
   - python exercises/ex16.py test.txt < bash_scripts/ex16_answer.sh
   - python exercises/ex17.py test.txt new_file.txt < bash_scripts/ex17_answer.sh
   - python exercises/ex18.py
