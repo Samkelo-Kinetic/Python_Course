@@ -21,7 +21,7 @@ script:
   - python exercises/ex14.py Sam < answers/ex14_answer.txt
   - python exercises/ex15.py < answers/ex15_sample.txt
   - python exercises/ex16.py test.txt < bash_scripts/ex16_answer.sh
-  - python exercises/ex17.py test.txt new_file.txt < bash_scripts ex17_answer.sh
+  - python exercises/ex17.py test.txt new_file.txt < bash_scripts/ex17_answer.sh
   - python exercise/ex18.py
   - python exercise/ex19.py
   - python exercise/ex20.py <answers/test.txt
