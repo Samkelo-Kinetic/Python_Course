@@ -5,17 +5,17 @@ cache: pip
 install:
   - pip install -r requirements.txt
 script:
-  - python exercie/ex1.py
-  - python exercise/ex2.py
-  - python exercise/ex3.py
-  - python exercise/ex4.py
-  - python exercise/ex5.py
-  - python exercise/ex6.py
-  - python exercise/ex7.py
-  - python exercise/ex8.py
-  - python exercise/ex9.py
-  - python exercise/ex10.py 
-  - python exercise/ex11.py < answers/testing.txt
+  - python exercises/ex1.py
+  - python exercises/ex2.py
+  - python exercises/ex3.py
+  - python exercises/ex4.py
+  - python exercises/ex5.py
+  - python exercises/ex6.py
+  - python exercises/ex7.py
+  - python exercises/ex8.py
+  - python exercises/ex9.py
+  - python exercises/ex10.py 
+  - python exercises/ex11.py < answers/testing.txt
   - python ex12.py < answers/testing.txt
   - python ex13.py < answers/ex13_input.txt
   - python ex14.py Sam < answers/ex14_answer.txt
