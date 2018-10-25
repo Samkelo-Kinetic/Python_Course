@@ -5,27 +5,27 @@ cache: pip
 install:
   - pip install -r requirements.txt
 script:
-  - python ex1.py
-  - python ex2.py
-  - python ex3.py
-  - python ex4.py
-  - python ex5.py
-  - python ex6.py
-  - python ex7.py
-  - python ex8.py
-  - python ex9.py
-  - python ex10.py 
-  - python ex11.py < testing.txt
-  - python ex12.py < testing.txt
-  - python ex13.py < ex13_input.txt
-  - python ex14.py Sam < ex14_answer.txt
+  - python exercie/ex1.py
+  - python exercise/ex2.py
+  - python exercise/ex3.py
+  - python exercise/ex4.py
+  - python exercise/ex5.py
+  - python exercise/ex6.py
+  - python exercise/ex7.py
+  - python exercise/ex8.py
+  - python exercise/ex9.py
+  - python exercise/ex10.py 
+  - python exercise/ex11.py < answers/testing.txt
+  - python ex12.py < answers/testing.txt
+  - python ex13.py < answers/ex13_input.txt
+  - python ex14.py Sam < answeres/ex14_answer.txt
   - python ex15.py ex15_sample.txt < ex15_answer.txt
-  - python ex16.py test.txt < ex16_answer.sh
-  - python ex17.py test.txt new_file.txt < ex17_answer.sh
-  - python ex18.py
-  - python ex19.py
-  - python ex20.py test.txt
-  - python ex21.py
-  - python ex24.py
-  - python ex25.py
+  - python ex16.py test.txt < bash_files/ex16_answer.sh
+  - python ex17.py test.txt new_file.txt < bash_files ex17_answer.sh
+  - python exercise/ex18.py
+  - python exercise/ex19.py
+  - python exercise/ex20.py test.txt
+  - python exercise/ex21.py
+  - python exercise/ex24.py
+  - python exercise/ex25.py
 
