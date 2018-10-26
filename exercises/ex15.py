@@ -3,8 +3,10 @@
 from sys import argv
 #Argument variables 
 script, filename = argv
+
 #openning the text file
 txt = open(filename)
+
 #Writing the textual content within the text file
 print "Here's your file %r:" % filename
 #printing the textual content to the screen
