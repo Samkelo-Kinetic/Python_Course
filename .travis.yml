@@ -22,7 +22,7 @@ script:
   - python exercises/ex15.py ex15_sample.txt < answers/ex15_sample.txt
   - python exercises/ex18.py
   - python exercises/ex19.py
-  - python exercises/ex20.py < answers/test.txt
+  - python exercises/ex20.py < answers/testing.txt
   - python exercises/ex21.py
   - python exercises/ex24.py
   - python exercises/ex25.py
