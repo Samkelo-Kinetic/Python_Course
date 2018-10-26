@@ -1,4 +1,4 @@
-#Functions and filesS
+clea#Functions and filesS
 from sys import argv
 
 script, input_file = argv
