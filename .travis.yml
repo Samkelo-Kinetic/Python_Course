@@ -14,7 +14,7 @@ script:
   - python exercises/ex7.py
   - python exercises/ex8.py
   - python exercises/ex9.py
-  #- python exercises/ex10.py 
+  - python exercises/ex10.py 
   - python exercises/ex11.py < answers/testing.txt
   - python exercises/ex12.py < answers/testing.txt
   - python exercises/ex13.py < answers/ex13_input.txt
